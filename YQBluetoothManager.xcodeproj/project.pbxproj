@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DC467B51E4C465F00427093 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC467B41E4C465F00427093 /* main.m */; };
+		4DC467B81E4C465F00427093 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC467B71E4C465F00427093 /* AppDelegate.m */; };
+		4DC467BB1E4C465F00427093 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC467BA1E4C465F00427093 /* ViewController.m */; };
+		4DC467BE1E4C465F00427093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC467BC1E4C465F00427093 /* Main.storyboard */; };
+		4DC467C01E4C465F00427093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC467BF1E4C465F00427093 /* Assets.xcassets */; };
+		4DC467C31E4C465F00427093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC467C11E4C465F00427093 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DC467B01E4C465F00427093 /* YQBluetoothManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQBluetoothManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC467B41E4C465F00427093 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DC467B61E4C465F00427093 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DC467B71E4C465F00427093 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DC467B91E4C465F00427093 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DC467BA1E4C465F00427093 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4DC467BD1E4C465F00427093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DC467BF1E4C465F00427093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DC467C21E4C465F00427093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DC467C41E4C465F00427093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DC467AD1E4C465F00427093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DC467A71E4C465F00427093 = {
+			isa = PBXGroup;
+			children = (
+				4DC467B21E4C465F00427093 /* YQBluetoothManager */,
+				4DC467B11E4C465F00427093 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DC467B11E4C465F00427093 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DC467B01E4C465F00427093 /* YQBluetoothManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DC467B21E4C465F00427093 /* YQBluetoothManager */ = {
+			isa = PBXGroup;
+			children = (
+				4DC467B61E4C465F00427093 /* AppDelegate.h */,
+				4DC467B71E4C465F00427093 /* AppDelegate.m */,
+				4DC467B91E4C465F00427093 /* ViewController.h */,
+				4DC467BA1E4C465F00427093 /* ViewController.m */,
+				4DC467BC1E4C465F00427093 /* Main.storyboard */,
+				4DC467BF1E4C465F00427093 /* Assets.xcassets */,
+				4DC467C11E4C465F00427093 /* LaunchScreen.storyboard */,
+				4DC467C41E4C465F00427093 /* Info.plist */,
+				4DC467B31E4C465F00427093 /* Supporting Files */,
+			);
+			path = YQBluetoothManager;
+			sourceTree = "<group>";
+		};
+		4DC467B31E4C465F00427093 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DC467B41E4C465F00427093 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DC467AF1E4C465F00427093 /* YQBluetoothManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC467C71E4C465F00427093 /* Build configuration list for PBXNativeTarget "YQBluetoothManager" */;
+			buildPhases = (
+				4DC467AC1E4C465F00427093 /* Sources */,
+				4DC467AD1E4C465F00427093 /* Frameworks */,
+				4DC467AE1E4C465F00427093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQBluetoothManager;
+			productName = YQBluetoothManager;
+			productReference = 4DC467B01E4C465F00427093 /* YQBluetoothManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DC467A81E4C465F00427093 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "杨清";
+				TargetAttributes = {
+					4DC467AF1E4C465F00427093 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YZ699CCGQK;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4DC467AB1E4C465F00427093 /* Build configuration list for PBXProject "YQBluetoothManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DC467A71E4C465F00427093;
+			productRefGroup = 4DC467B11E4C465F00427093 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DC467AF1E4C465F00427093 /* YQBluetoothManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DC467AE1E4C465F00427093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC467C31E4C465F00427093 /* LaunchScreen.storyboard in Resources */,
+				4DC467C01E4C465F00427093 /* Assets.xcassets in Resources */,
+				4DC467BE1E4C465F00427093 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DC467AC1E4C465F00427093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC467BB1E4C465F00427093 /* ViewController.m in Sources */,
+				4DC467B81E4C465F00427093 /* AppDelegate.m in Sources */,
+				4DC467B51E4C465F00427093 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DC467BC1E4C465F00427093 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC467BD1E4C465F00427093 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DC467C11E4C465F00427093 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC467C21E4C465F00427093 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DC467C51E4C465F00427093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DC467C61E4C465F00427093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DC467C81E4C465F00427093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YZ699CCGQK;
+				INFOPLIST_FILE = YQBluetoothManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yqing.YQBluetoothManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DC467C91E4C465F00427093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YZ699CCGQK;
+				INFOPLIST_FILE = YQBluetoothManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yqing.YQBluetoothManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DC467AB1E4C465F00427093 /* Build configuration list for PBXProject "YQBluetoothManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC467C51E4C465F00427093 /* Debug */,
+				4DC467C61E4C465F00427093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC467C71E4C465F00427093 /* Build configuration list for PBXNativeTarget "YQBluetoothManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC467C81E4C465F00427093 /* Debug */,
+				4DC467C91E4C465F00427093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DC467A81E4C465F00427093 /* Project object */;
+}
