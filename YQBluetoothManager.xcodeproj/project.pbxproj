@@ -13,6 +13,7 @@
 		4DC467BE1E4C465F00427093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC467BC1E4C465F00427093 /* Main.storyboard */; };
 		4DC467C01E4C465F00427093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC467BF1E4C465F00427093 /* Assets.xcassets */; };
 		4DC467C31E4C465F00427093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC467C11E4C465F00427093 /* LaunchScreen.storyboard */; };
+		4DC467D21E4C46A200427093 /* libYQBluetoothManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC467D11E4C46A200427093 /* libYQBluetoothManager.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,11 @@
 		4DC467BF1E4C465F00427093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DC467C21E4C465F00427093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DC467C41E4C465F00427093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC467CD1E4C46A200427093 /* YQBleCentralManagerOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQBleCentralManagerOperation.h; sourceTree = "<group>"; };
+		4DC467CE1E4C46A200427093 /* YQBleCurrCmdStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQBleCurrCmdStatus.h; sourceTree = "<group>"; };
+		4DC467CF1E4C46A200427093 /* YQBleNordicUartDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQBleNordicUartDataSet.h; sourceTree = "<group>"; };
+		4DC467D01E4C46A200427093 /* YQBluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQBluetoothManager.h; sourceTree = "<group>"; };
+		4DC467D11E4C46A200427093 /* libYQBluetoothManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libYQBluetoothManager.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC467D21E4C46A200427093 /* libYQBluetoothManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +65,7 @@
 		4DC467B21E4C465F00427093 /* YQBluetoothManager */ = {
 			isa = PBXGroup;
 			children = (
+				4DC467CA1E4C46A200427093 /* libYQBluetoothManager */,
 				4DC467B61E4C465F00427093 /* AppDelegate.h */,
 				4DC467B71E4C465F00427093 /* AppDelegate.m */,
 				4DC467B91E4C465F00427093 /* ViewController.h */,
@@ -77,6 +85,34 @@
 				4DC467B41E4C465F00427093 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DC467CA1E4C46A200427093 /* libYQBluetoothManager */ = {
+			isa = PBXGroup;
+			children = (
+				4DC467CB1E4C46A200427093 /* include */,
+				4DC467D11E4C46A200427093 /* libYQBluetoothManager.a */,
+			);
+			path = libYQBluetoothManager;
+			sourceTree = "<group>";
+		};
+		4DC467CB1E4C46A200427093 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				4DC467CC1E4C46A200427093 /* YQBluetoothManager */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		4DC467CC1E4C46A200427093 /* YQBluetoothManager */ = {
+			isa = PBXGroup;
+			children = (
+				4DC467CD1E4C46A200427093 /* YQBleCentralManagerOperation.h */,
+				4DC467CE1E4C46A200427093 /* YQBleCurrCmdStatus.h */,
+				4DC467CF1E4C46A200427093 /* YQBleNordicUartDataSet.h */,
+				4DC467D01E4C46A200427093 /* YQBluetoothManager.h */,
+			);
+			path = YQBluetoothManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +312,10 @@
 				DEVELOPMENT_TEAM = YZ699CCGQK;
 				INFOPLIST_FILE = YQBluetoothManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YQBluetoothManager/libYQBluetoothManager",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = yqing.YQBluetoothManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -288,6 +328,10 @@
 				DEVELOPMENT_TEAM = YZ699CCGQK;
 				INFOPLIST_FILE = YQBluetoothManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YQBluetoothManager/libYQBluetoothManager",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = yqing.YQBluetoothManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
